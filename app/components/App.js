@@ -1,25 +1,14 @@
 import React from 'react';
 // import img from '../assets/images/react_logo_512x512.png';
-import Header from './header/Main_Header';
-import Login from './login/Login';
+import Header from './header/MainHeader';
+import Search from './search/Search';
 
 const App = () => {
   return (
     <div className="container">
       <Header />
-      <Login />
+      <Search />
     </div>
-    // <div>
-    //   <h2 id="heading">Hello ReactJS</h2>
-    //   <img
-    //     className="image"
-    //     style={{ margin: '0.5em' }}
-    //     height="40"
-    //     width="40"
-    //     src={img}
-    //     alt="React Logo"
-    //   />
-    // </div>
   );
 };
 
